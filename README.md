@@ -7,7 +7,7 @@
 
 THe DPF framework is a submodule for this repo.  
 Clone with :  
-`git clone --recursive <repo.git>`
+`git clone --recursive https://github.com/rghvdberg/dpf_templates.git`
 
 ---
 
