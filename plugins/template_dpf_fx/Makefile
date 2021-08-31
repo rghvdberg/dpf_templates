@@ -27,11 +27,8 @@ include ../../dpf/Makefile.plugins.mk
 
 # --------------------------------------------------------------
 # Enable lv2, vst and jack app
-ifeq ($(HAVE_JACK),true)
-ifeq ($(HAVE_OPENGL),true)
+
 TARGETS += jack
-endif
-endif
 
 ifeq ($(HAVE_OPENGL),true)
 TARGETS += lv2_sep
